@@ -19,8 +19,8 @@
       <span style="font-size: 1.3rem;">⊙</span>
       Go2travelplanner
     </a>
-
-    <ul class="navbar-links">
+  <div class="menu-toggle" onclick="toggleMenu()"> ☰</div>
+    <ul class="navbar-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
       <li><a href="cities.html">Cities</a></li>
       <li><a href="daily-activities.html" class="active">Daily Activities</a></li>
@@ -128,6 +128,13 @@
 
   
   </script>
+
+
+<script>
+  function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+  }
+</script>
 
 </body>
 </html>

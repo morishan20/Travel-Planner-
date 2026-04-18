@@ -15,13 +15,13 @@
   <nav class="navbar">
 
     <a href="index.html" class="navbar-logo">
-      <!-- Compass icon using a Unicode character -->
       <span style="font-size: 1.3rem;">⊙</span>
       Go2travelplanner
     </a>
 
+<div class="menu-toggle" onclick="toggleMenu()"> ☰</div>
 
-    <ul class="navbar-links">
+    <ul class="navbar-links" id="navLinks">
 
       <li><a href="index.html" class="active">Home</a></li>
 
@@ -278,6 +278,11 @@
 
 <script src="jaava/darkmode.js"></script>
 
+<script>
+  function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+  }
+</script>
 </body>
 
 </html>
