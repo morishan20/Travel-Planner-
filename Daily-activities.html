@@ -12,8 +12,7 @@
 
 <body>
 
-  <!-- NAVBAR
-       "Daily Activities" is marked active on this page -->
+  <!--  NAVIGATION BAR (same on every page)-->
   <nav class="navbar">
 
     <a href="index.html" class="navbar-logo">
@@ -28,6 +27,7 @@
       <li><a href="my-trips.html">My Trips</a></li>
       <li><a href="login.html">Login</a></li>
       <li>
+        <!-- JAVASCRIPT USED: dark mode toggle -->
         <button class="dark-toggle" id="darkToggleBtn" onclick="toggleDarkMode()">🌙</button>
       </li>
     </ul>
@@ -35,7 +35,6 @@
   </nav>
 
 
-  <!-- MAIN PAGE CONTENT -->
   <div class="daily-page">
 
 
@@ -47,8 +46,6 @@
       </div>
 
       <div class="daily-header-right">
-        <button class="btn-gray">📂 Load Trip</button>
-        <button class="btn-teal">💾 Save Changes</button>
         <!-- Load Trip button -->
         <button class="btn-gray" onclick="showLoadtripPopup()"> 📂 Load Trip</button>
 
@@ -79,11 +76,9 @@
     </div>
 
 
-    <!-- DAY NAVIGATOR AND DAY CARD -->
    
     <div class="day-card" id="dayCard">
 
-    <!-- TRIP SUMMARY  -->
       <!-- Day card header: date and "Add Activity" button -->
       <div class="day-card-header">
         <h3 id="dayCardTitle">Friday, February 27</h3>
@@ -104,7 +99,6 @@
   </div>
 
 
-  <!-- JS at the bottom -->
 
   <script src="jaava/darkmode.js"></script>
 
