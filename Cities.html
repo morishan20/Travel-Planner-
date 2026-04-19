@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Go2travelplanner - Cities</title>
   <link rel="stylesheet" href="css/style.css" />
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -43,15 +45,60 @@
   </div>
 
 
-  <!-- map -->
+ <div class="map-container">
+  <div class="map-box">
+    <div id="map" style="width:100%; height:700px;"></div>
+  </div>
+</div>
+
+<p class="map-note"> Explore destinations around the world </p>
  
 
-  <!-- JS for the dark mode -->
+ 
   <script src="jaava/darkmode.js"></script>
 <script>
   function toggleMenu() {
     document.getElementById("navLinks").classList.toggle("active");
   }
 </script>
+
+
+
+
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js"></script>
+<script>
+  
+  mapboxgl.accessToken = "pk.eyJ1IjoibW9yaXNoYW4iLCJhIjoiY21vNHd1YnB6MHpobDJ5cXc4ZmZqemcxciJ9.ReXxU3i4Dm1S2H7JJTApuw";
+
+ 
+  var map = new mapboxgl.Map({
+    container: "map",
+    style: "mapbox://styles/mapbox/streets-v12",
+    center: [0, 10],
+    zoom: 1.5
+  });
+
+  /* Destination markers */
+  var destinations = [
+    { name: "Paris",     lng: 2.3522,    lat: 48.8566  },
+    { name: "Tokyo",     lng: 139.6503,  lat: 35.6762  },
+    { name: "New York",  lng: -74.0060,  lat: 40.7128  },
+    { name: "Barcelona", lng: 2.1734,    lat: 41.3851  },
+    { name: "Dubai",     lng: 55.2708,   lat: 25.2048  },
+    { name: "London",    lng: -0.1278,   lat: 51.5074  },
+    { name: "Rome",      lng: 12.4964,   lat: 41.9028  },
+    { name: "Sydney",    lng: 151.2093,  lat: -33.8688 }
+  ];
+
+  /* Add a marker and popup for each destination */
+  destinations.forEach(function(dest) {
+    new mapboxgl.Marker({ color: "#1aabab" })
+      .setLngLat([dest.lng, dest.lat])
+      .setPopup(new mapboxgl.Popup().setText(dest.name))
+      .addTo(map);
+  });
+</script>
+
 </body>
 </html>
