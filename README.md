@@ -1,6 +1,33 @@
 # **Website-Design-Assignment**
+## Table of contents
 
-## User personas:
+
+## Table of Contents
+
+- [User Personas](#user-personas)
+- [User Stories](#user-stories)
+  - [Frequent User (Deshan)](#frequent-user-deshan)
+    - [System Functional Requirements](#system-functional-requirements)
+    - [Acceptance Criteria](#acceptance-criteria)
+    - [Modifying an Existing Itinerary](#modifying-an-existing-itinerary)
+    - [Adjusting Trip Details](#adjusting-trip-details)
+    - [Reviewing the Updated Plan](#reviewing-the-updated-plan)
+  - [Returning User (John)](#returning-user-john)
+    - [System Functional Requirements](#system-functional-requirements-1)
+    - [Acceptance Criteria](#acceptance-criteria-1)
+    - [Reusing Previous Trips](#reusing-previous-trips)
+    - [Updating Information](#updating-information)
+    - [Seeing Total Cost](#seeing-total-cost)
+  - [New User (Sam)](#new-user-sam)
+    - [System Functional Requirements](#system-functional-requirements-2)
+    - [Acceptance Criteria](#acceptance-criteria-2)
+    - [Adding Activities to the Itinerary](#adding-activities-to-the-itinerary)
+- [Website Screenshots with Justifications](#website-screenshots-with-justifications)
+- [Colour Contrast Analysis](#colour-contrast-analysis)
+- [References](#references)
+
+
+# User personas:
 
 
 
