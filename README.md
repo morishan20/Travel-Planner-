@@ -240,9 +240,15 @@ As a new user who enjoys travelling, I would like a easy and simple wesbtie in w
 
 
 ## Certifications
+<img width="1441" height="926" alt="Screenshot 2026-04-24 at 15 00 30" src="https://github.com/user-attachments/assets/d484549e-3acc-409e-84d4-696c0701e0e7" />
+
+-  No issues found when tested with css and html validator.
+  
+<img width="1650" height="993" alt="Screenshot 2026-04-24 at 14 58 42" src="https://github.com/user-attachments/assets/e53bb01d-7e5e-4802-9911-12bb4575201f" />
 - <img width="876" height="841" alt="Screenshot 2026-04-22 at 15 46 38" src="https://github.com/user-attachments/assets/3d3a6b71-8f54-4bad-92ff-fa2bf03ab94a" />
 - <img width="882" height="846" alt="Screenshot 2026-04-22 at 15 48 18" src="https://github.com/user-attachments/assets/f5bf5a66-ea7b-440b-b20b-a96abc9bed4f" />
 - <img width="881" height="830" alt="Screenshot 2026-04-22 at 15 49 52" src="https://github.com/user-attachments/assets/8e008948-1872-4797-9483-5616858496ee" />
+
 
 
 
